@@ -1,6 +1,7 @@
 import React from 'react';
 
-export default function AboutUs() {
+<Switch>
+<Route path="/aboutus" component={AboutUs} />
   return (
       <div class="AboutUs">
         <h1>About Us Page</h1>
@@ -9,4 +10,4 @@ export default function AboutUs() {
         </p>
       </div>
     );
-}
+</Switch>

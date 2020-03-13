@@ -1,6 +1,7 @@
 import React from 'react';
 
-export default function Home() {
+<Switch>
+<Route path="/" component={Home} exact />
   return (
       <div class="Home">
         <h1>Home Page</h1>
@@ -9,4 +10,4 @@ export default function Home() {
         </p>
       </div>
     );
-}
+</Switch>
